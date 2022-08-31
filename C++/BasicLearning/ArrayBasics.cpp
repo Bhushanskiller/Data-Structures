@@ -5,6 +5,24 @@ using namespace std;
 
 int main()
 {
+    int n;
+    cout<<"Enter Array Size For Garbage Value check"<<endl;
+    cin>>n;
+    int Arr[n];
+    Arr[0]=2;
+    cout<<"For Check start"<<endl;
+
+    for(int a=0;a<=4;a++)
+    {
+        cout<<Arr[a]<<endl;
+    }
+    cout<<"ForEach Check start"<<endl;
+    for(int x:Arr)
+    {
+        cout<<"x=>"+x<<endl;
+    }
+
+    cout<<"-------------------------------------------------------------"<<endl;
     cout << "Hello world!" << endl;
     int A[]={1,2,4};
     cout<<sizeof A[2]<<endl;
